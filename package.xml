@@ -24,6 +24,7 @@
   <depend>builtin_interfaces</depend>
   <depend>eigen</depend>
   <depend>libopencv-dev</depend>
+  <depend>libssl-dev</depend>
 
   <test_depend>ament_lint_auto</test_depend>
   <test_depend>ament_lint_common</test_depend>
