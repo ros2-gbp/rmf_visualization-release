@@ -1,0 +1,12 @@
+Source: ros-rolling-rmf-visualization-fleet-states
+Section: misc
+Priority: optional
+Maintainer: Morgan Quigley <mquigley@openrobotics.org>
+Build-Depends: debhelper (>= 9.0.0), ros-rolling-rmf-fleet-msgs, ros-rolling-visualization-msgs, ros-rolling-ros-workspace, python3-all, python3-setuptools
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-rolling-rmf-visualization-fleet-states
+Architecture: any
+Depends: ${python3:Depends}, ${misc:Depends}, ros-rolling-ament-index-python, ros-rolling-rclpy, ros-rolling-rmf-building-map-msgs, ros-rolling-rmf-traffic-msgs, ros-rolling-rmf-visualization-msgs, ros-rolling-std-msgs, ros-rolling-visualization-msgs, ros-rolling-ros-workspace
+Description: Fleet state visualizer
