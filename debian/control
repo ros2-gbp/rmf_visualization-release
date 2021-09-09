@@ -1,0 +1,12 @@
+Source: ros-galactic-rmf-visualization-rviz2-plugins
+Section: misc
+Priority: optional
+Maintainer: Yadunund <yadunund@openrobotics.org>
+Build-Depends: debhelper (>= 9.0.0), libeigen3-dev, qtbase5-dev, ros-galactic-ament-cmake, ros-galactic-pluginlib, ros-galactic-rclcpp, ros-galactic-resource-retriever, ros-galactic-rmf-cmake-uncrustify, ros-galactic-rmf-door-msgs, ros-galactic-rmf-lift-msgs, ros-galactic-rmf-traffic-ros2, ros-galactic-rmf-visualization-msgs, ros-galactic-rviz-common, ros-galactic-rviz-default-plugins, ros-galactic-rviz-rendering, ros-galactic-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-galactic-rmf-visualization-rviz2-plugins
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libqt5core5a, libqt5gui5, libqt5widgets5, ros-galactic-pluginlib, ros-galactic-rclcpp, ros-galactic-resource-retriever, ros-galactic-rmf-door-msgs, ros-galactic-rmf-lift-msgs, ros-galactic-rmf-traffic-ros2, ros-galactic-rmf-visualization-msgs, ros-galactic-rviz-common, ros-galactic-rviz-default-plugins, ros-galactic-rviz-rendering, ros-galactic-ros-workspace
+Description: A package containing RViz2 plugins for RMF
