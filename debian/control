@@ -1,0 +1,12 @@
+Source: ros-galactic-rmf-visualization-schedule
+Section: misc
+Priority: optional
+Maintainer: Yadunund <yadunund@openrobotics.org>
+Build-Depends: debhelper (>= 9.0.0), libboost-dev, libeigen3-dev, libopencv-dev, libssl-dev, libwebsocketpp-dev, ros-galactic-ament-cmake, ros-galactic-ament-lint-auto, ros-galactic-ament-lint-common, ros-galactic-builtin-interfaces, ros-galactic-geometry-msgs, ros-galactic-nav-msgs, ros-galactic-rclcpp, ros-galactic-rmf-building-map-msgs, ros-galactic-rmf-cmake-uncrustify, ros-galactic-rmf-traffic, ros-galactic-rmf-traffic-msgs, ros-galactic-rmf-traffic-ros2, ros-galactic-rmf-visualization-msgs, ros-galactic-rosidl-default-generators, ros-galactic-visualization-msgs, ros-galactic-ros-workspace, ros-galactic-rosidl-typesupport-fastrtps-c, ros-galactic-rosidl-typesupport-fastrtps-cpp
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-galactic-rmf-visualization-schedule
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libboost-dev, libeigen3-dev, libopencv-dev, libssl-dev, libwebsocketpp-dev, ros-galactic-builtin-interfaces, ros-galactic-geometry-msgs, ros-galactic-nav-msgs, ros-galactic-rclcpp, ros-galactic-rmf-building-map-msgs, ros-galactic-rmf-traffic, ros-galactic-rmf-traffic-msgs, ros-galactic-rmf-traffic-ros2, ros-galactic-rmf-visualization-msgs, ros-galactic-rosidl-default-generators, ros-galactic-visualization-msgs, ros-galactic-ros-workspace
+Description: A visualizer for trajectories in rmf schedule
