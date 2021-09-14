@@ -1,0 +1,12 @@
+Source: ros-foxy-rmf-visualization-fleet-states
+Section: misc
+Priority: optional
+Maintainer: Morgan Quigley <mquigley@openrobotics.org>
+Build-Depends: debhelper (>= 9.0.0), ros-foxy-rmf-fleet-msgs, ros-foxy-visualization-msgs, ros-foxy-ros-workspace, python3-all, python3-setuptools
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-foxy-rmf-visualization-fleet-states
+Architecture: any
+Depends: ${python3:Depends}, ${misc:Depends}, ros-foxy-ament-index-python, ros-foxy-rclpy, ros-foxy-rmf-building-map-msgs, ros-foxy-rmf-traffic-msgs, ros-foxy-rmf-visualization-msgs, ros-foxy-std-msgs, ros-foxy-visualization-msgs, ros-foxy-ros-workspace
+Description: Fleet state visualizer
