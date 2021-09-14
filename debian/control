@@ -1,0 +1,12 @@
+Source: ros-foxy-rmf-visualization
+Section: misc
+Priority: optional
+Maintainer: Yadunund <yadunund@openrobotics.org>
+Build-Depends: debhelper (>= 9.0.0), ros-foxy-ament-cmake, ros-foxy-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-foxy-rmf-visualization
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-foxy-launch-xml, ros-foxy-rmf-visualization-building-systems, ros-foxy-rmf-visualization-fleet-states, ros-foxy-rmf-visualization-rviz2-plugins, ros-foxy-rmf-visualization-schedule, ros-foxy-ros-workspace
+Description: Package containing a single launch file to bringup various visualizations
