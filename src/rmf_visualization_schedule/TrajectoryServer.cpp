@@ -112,7 +112,7 @@ auto TrajectoryServer::Implementation::on_message(
 
   if (msg->get_payload().empty())
   {
-    RCLCPP_INFO(
+    RCLCPP_DEBUG(
       schedule_data_node->get_logger(),
       "[TrajectoryServer] Empty request received. Ignoring...");
     return;
@@ -154,8 +154,9 @@ auto TrajectoryServer::Implementation::on_message(
   }
   else
   {
-    RCLCPP_INFO(schedule_data_node->get_logger(),
-      "[TrajectoryServer] Invalid request received");
+    RCLCPP_DEBUG(schedule_data_node->get_logger(),
+      "[TrajectoryServer] Invalid request received: %s",
+      msg->get_payload().c_str());
   }
 
 }
@@ -296,10 +297,10 @@ const std::string TrajectoryServer::Implementation::parse_trajectories(
   {
     for (const auto& element : elements)
     {
-      const auto& trajectory = element.route.trajectory();
+      const auto& trajectory = element.route->trajectory();
 
       auto j_traj = _j_traj;
-      j_traj["map_name"] = element.route.map();
+      j_traj["map_name"] = element.route->map();
       j_traj["robot_name"] = element.description.name();
       j_traj["fleet_name"] = element.description.owner();
       j_traj["id"] = element.participant;
