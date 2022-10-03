@@ -69,16 +69,17 @@ public:
 //==============================================================================
 std::shared_ptr<ScheduleDataNode> ScheduleDataNode::make(
   const std::string& node_name,
-  rmf_traffic::Duration wait_time)
+  rmf_traffic::Duration wait_time,
+  const rclcpp::NodeOptions& options)
 {
   const auto start_time = std::chrono::steady_clock::now();
   std::shared_ptr<ScheduleDataNode> schedule_data(
-    new ScheduleDataNode(std::move(node_name)));
+    new ScheduleDataNode(std::move(node_name), options));
 
   // Creating a mirror manager that queries over all
   // Spacetime in the database schedule
   auto mirror_mgr_future = rmf_traffic_ros2::schedule::make_mirror(
-    *schedule_data, rmf_traffic::schedule::query_all(),
+    schedule_data, rmf_traffic::schedule::query_all(),
     &schedule_data->_pimpl->mutex);
 
   const auto stop_time = start_time + wait_time;
@@ -93,7 +94,7 @@ std::shared_ptr<ScheduleDataNode> ScheduleDataNode::make(
         Implementation::Data{mirror_mgr_future.get()});
       // retrieve/construct mirrors, snapshots and negotiation object
       schedule_data->_pimpl->negotiation = std::make_shared<Negotiation>(
-        *schedule_data, schedule_data->_pimpl->data->mirror.snapshot_handle());
+        *schedule_data, schedule_data->_pimpl->data->mirror.view());
       return schedule_data;
     }
   }
@@ -106,14 +107,16 @@ std::shared_ptr<ScheduleDataNode> ScheduleDataNode::make(
 }
 
 //==============================================================================
-ScheduleDataNode::ScheduleDataNode(std::string node_name)
-: Node(node_name),
+ScheduleDataNode::ScheduleDataNode(
+  std::string node_name,
+  const rclcpp::NodeOptions& options)
+: Node(std::move(node_name), options),
   _pimpl(rmf_utils::make_impl<Implementation>(Implementation{}))
 {
   this->_pimpl->conflict_notice_sub =
     this->create_subscription<Implementation::ConflictNotice>(
     rmf_traffic_ros2::NegotiationNoticeTopicName,
-    rclcpp::QoS(10),
+    rclcpp::ServicesQoS().reliable(),
     [this](Implementation::ConflictNotice::UniquePtr msg)
     {
       std::lock_guard<std::mutex> guard(this->_pimpl->mutex);
@@ -151,7 +154,7 @@ auto ScheduleDataNode::get_elements(
     &request_param.start_time,
     &request_param.finish_time);
 
-  const auto view = _pimpl->data->mirror.viewer().query(query);
+  const auto view = _pimpl->data->mirror.view()->query(query);
 
   for (const auto& element : view)
     elements.push_back(element);
@@ -215,12 +218,16 @@ auto ScheduleDataNode::get_negotiation_trajectories(
 
   rmf_traffic::RouteId route_id = 0;
   const auto add_route = [&route_id, &table_view, &trajectory_elements]
-      (rmf_traffic::ConstRoutePtr route_ptr,
+      (const rmf_traffic::Route& route,
       rmf_traffic::schedule::ParticipantId id)
     {
-      const auto& route = *(route_ptr);
-
-      Element e { id, route_id, route, *table_view->get_description(id) };
+      Element e {
+        id,
+        0,
+        route_id,
+        std::make_shared<rmf_traffic::Route>(route),
+        *table_view->get_description(id)
+      };
       trajectory_elements.push_back(e);
       ++route_id;
     };
@@ -229,8 +236,8 @@ auto ScheduleDataNode::get_negotiation_trajectories(
   if (itin)
   {
     const auto& routes = *itin;
-    for (auto route_ptr : routes)
-      add_route(route_ptr, table_view->participant_id());
+    for (const auto& route : routes)
+      add_route(route, table_view->participant_id());
   }
 
   for (auto proposal : table_view->base_proposals())
