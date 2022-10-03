@@ -1,6 +1,6 @@
 ## Changelog for package rmf_visualization_building_systems
 
-2.0.0 (2022-09-09)
+2.0.0 (2022-10-03)
 ------------------
 
 1.2.1 (2021-09-01)
