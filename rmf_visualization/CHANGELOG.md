@@ -1,10 +1,14 @@
 ## Changelog for package rmf_visualization
 
+2.0.0 (2022-10-03)
+------------------
+* Update launch file to bringup navgraph, floorplan and obstacle visualizers: [#44](https://github.com/open-rmf/rmf_visualization/pull/44)
+
 1.2.1 (2021-09-01)
 ------------------
 * Fix style checking in CI: [#37](https://github.com/open-rmf/rmf_visualization/pull/37)
 * Contributors: Grey
-  
+
 1.2.0 (2021-06-14)
 ------------------
 * Renamed package to `rmf_visualization` with `visualization.launch.xml` launch file: [#8](https://github.com/open-rmf/rmf_visualization/pull/8)
