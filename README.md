@@ -1,3 +1,34 @@
+## rmf_visualization (rolling) - 2.0.1-1
+
+The packages in the `rmf_visualization` repository were released into the `rolling` distro by running `/usr/bin/bloom-release --ros-distro rolling --track rolling rmf_visualization` on `Tue, 15 Nov 2022 13:21:21 -0000`
+
+These packages were released:
+- `rmf_visualization`
+- `rmf_visualization_building_systems`
+- `rmf_visualization_fleet_states`
+- `rmf_visualization_floorplans`
+- `rmf_visualization_navgraphs`
+- `rmf_visualization_obstacles`
+- `rmf_visualization_rviz2_plugins`
+- `rmf_visualization_schedule`
+
+Version of package(s) in repository `rmf_visualization`:
+
+- upstream repository: https://github.com/open-rmf/rmf_visualization.git
+- release repository: https://github.com/ros2-gbp/rmf_visualization-release.git
+- rosdistro version: `2.0.0-2`
+- old version: `2.0.0-2`
+- new version: `2.0.1-1`
+
+Versions of tools used:
+
+- bloom version: `0.11.2`
+- catkin_pkg version: `0.5.2`
+- rosdep version: `0.22.1`
+- rosdistro version: `0.9.0`
+- vcstools version: `0.1.42`
+
+
 ## rmf_visualization (humble) - 2.0.0-1
 
 The packages in the `rmf_visualization` repository were released into the `humble` distro by running `/usr/bin/bloom-release --rosdistro humble --track humble -e rmf_visualization` on `Mon, 03 Oct 2022 16:54:59 -0000`
