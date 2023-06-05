@@ -1,0 +1,12 @@
+Source: ros-humble-rmf-visualization-obstacles
+Section: misc
+Priority: optional
+Maintainer: Yadunund <yadunund@openrobotics.com>
+Build-Depends: debhelper (>= 9.0.0), ros-humble-ament-cmake, ros-humble-ament-cmake-uncrustify <!nocheck>, ros-humble-geometry-msgs, ros-humble-rclcpp, ros-humble-rclcpp-components, ros-humble-rmf-obstacle-msgs, ros-humble-rmf-utils <!nocheck>, ros-humble-rmf-visualization-msgs, ros-humble-vision-msgs, ros-humble-visualization-msgs, ros-humble-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-humble-rmf-visualization-obstacles
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-humble-geometry-msgs, ros-humble-rclcpp, ros-humble-rclcpp-components, ros-humble-rmf-obstacle-msgs, ros-humble-rmf-visualization-msgs, ros-humble-vision-msgs, ros-humble-visualization-msgs, ros-humble-ros-workspace
+Description: A visualizer for obstacles in RMF
