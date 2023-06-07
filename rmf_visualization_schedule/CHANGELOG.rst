@@ -2,11 +2,10 @@
 Changelog for package rmf_visualization_schedule
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-2.0.2 (2023-06-05)
+2.1.0 (2023-06-06)
 ------------------
-* Port version bump and changes from main to humble
-* Switch to rst changelogs (`#57 <https://github.com/open-rmf/rmf_visualization/issues/57>`_)
-* Contributors: Esteban Martinena, Grey, Yadunund
+* Switch to rst changelogs (`#57 <https://github.com/open-rmf/rmf_visualization/pull/57>`_)
+* Contributors: Yadunund
 
 2.0.1 (2022-11-15)
 ------------------
