@@ -1,0 +1,20 @@
+ros-iron-rmf-visualization-obstacles (2.1.0-1jammy) jammy; urgency=high
+
+  * Switch to rst changelogs (#57 <https://github.com/open-rmf/rmf_visualization/pull/57>)
+  * Contributors: Yadunund
+
+ -- Yadunund <yadunund@openrobotics.com>  Mon, 05 Jun 2023 16:00:00 -0000
+
+ros-iron-rmf-visualization-obstacles (2.0.1-1jammy) jammy; urgency=high
+
+
+
+ -- Yadunund <yadunund@openrobotics.com>  Mon, 14 Nov 2022 16:00:00 -0000
+
+ros-iron-rmf-visualization-obstacles (2.0.0-1jammy) jammy; urgency=high
+
+  * Provides visualizer for obstacles: (#44 <https://github.com/open-rmf/rmf_visualization/pull/44>)
+
+ -- Yadunund <yadunund@openrobotics.com>  Sun, 02 Oct 2022 16:00:00 -0000
+
+
