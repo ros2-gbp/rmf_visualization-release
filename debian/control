@@ -1,0 +1,12 @@
+Source: ros-iron-rmf-visualization-navgraphs
+Section: misc
+Priority: optional
+Maintainer: Yadunund <yadunund@openrobotics.com>
+Build-Depends: debhelper (>= 9.0.0), ros-iron-ament-cmake, ros-iron-ament-lint-auto <!nocheck>, ros-iron-ament-lint-common <!nocheck>, ros-iron-geometry-msgs, ros-iron-rclcpp, ros-iron-rclcpp-components, ros-iron-rmf-building-map-msgs, ros-iron-rmf-fleet-msgs, ros-iron-rmf-traffic, ros-iron-rmf-traffic-ros2, ros-iron-rmf-utils <!nocheck>, ros-iron-rmf-visualization-msgs, ros-iron-visualization-msgs, ros-iron-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-iron-rmf-visualization-navgraphs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-iron-geometry-msgs, ros-iron-rclcpp, ros-iron-rclcpp-components, ros-iron-rmf-building-map-msgs, ros-iron-rmf-fleet-msgs, ros-iron-rmf-traffic, ros-iron-rmf-traffic-ros2, ros-iron-rmf-visualization-msgs, ros-iron-visualization-msgs, ros-iron-ros-workspace
+Description: A package to visualiize the navigation graphs of fleets
