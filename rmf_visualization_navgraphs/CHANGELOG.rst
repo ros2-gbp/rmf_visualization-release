@@ -2,6 +2,9 @@
 Changelog for package rmf_visualization_navgraphs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+2.2.0 (2023-06-08)
+------------------
+
 2.1.0 (2023-06-06)
 ------------------
 * Switch to rst changelogs (`#57 <https://github.com/open-rmf/rmf_visualization/pull/57>`_)
