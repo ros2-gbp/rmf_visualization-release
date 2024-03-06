@@ -1,0 +1,12 @@
+Source: ros-rolling-rmf-visualization
+Section: misc
+Priority: optional
+Maintainer: Yadunund <yadunund@openrobotics.org>
+Build-Depends: debhelper (>= 9.0.0), ament-cmake, ros-rolling-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-rolling-rmf-visualization
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-rolling-launch-xml, ros-rolling-rmf-visualization-building-systems, ros-rolling-rmf-visualization-fleet-states, ros-rolling-rmf-visualization-floorplans, ros-rolling-rmf-visualization-navgraphs, ros-rolling-rmf-visualization-obstacles, ros-rolling-rmf-visualization-rviz2-plugins, ros-rolling-rmf-visualization-schedule, ros-rolling-ros-workspace
+Description: Package containing a single launch file to bringup various visualizations
