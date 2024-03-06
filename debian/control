@@ -1,0 +1,12 @@
+Source: ros-rolling-rmf-visualization-obstacles
+Section: misc
+Priority: optional
+Maintainer: Yadunund <yadunund@openrobotics.com>
+Build-Depends: debhelper (>= 9.0.0), ament-cmake, ament-cmake-uncrustify <!nocheck>, libgeometry-msgs-dev, libvisualization-msgs-dev, python3-geometry-msgs, python3-visualization-msgs, ros-geometry-msgs, ros-rolling-rclcpp, ros-rolling-rclcpp-components, ros-rolling-rmf-obstacle-msgs, ros-rolling-rmf-utils <!nocheck>, ros-rolling-rmf-visualization-msgs, ros-rolling-vision-msgs, ros-visualization-msgs, ros-rolling-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-rolling-rmf-visualization-obstacles
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libgeometry-msgs-dev, libvisualization-msgs-dev, python3-geometry-msgs, python3-visualization-msgs, ros-geometry-msgs, ros-rolling-rclcpp, ros-rolling-rclcpp-components, ros-rolling-rmf-obstacle-msgs, ros-rolling-rmf-visualization-msgs, ros-rolling-vision-msgs, ros-visualization-msgs, ros-rolling-ros-workspace
+Description: A visualizer for obstacles in RMF
