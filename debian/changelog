@@ -1,0 +1,61 @@
+ros-rolling-rmf-visualization-fleet-states (2.2.1-2noble) noble; urgency=high
+
+  * Improve linking times (#61 <https://github.com/open-rmf/rmf_visualization/pull/61>)
+  * Contributors: Grey, Luca Della Vedova
+
+ -- Morgan Quigley <mquigley@openrobotics.org>  Mon, 28 Aug 2023 00:00:00 -0000
+
+ros-rolling-rmf-visualization-fleet-states (2.2.0-2noble) noble; urgency=high
+
+
+
+ -- Morgan Quigley <mquigley@openrobotics.org>  Thu, 08 Jun 2023 00:00:00 -0000
+
+ros-rolling-rmf-visualization-fleet-states (2.1.0-2noble) noble; urgency=high
+
+  * Switch to rst changelogs (#57 <https://github.com/open-rmf/rmf_visualization/pull/57>)
+  * Contributors: Yadunund
+
+ -- Morgan Quigley <mquigley@openrobotics.org>  Tue, 06 Jun 2023 00:00:00 -0000
+
+ros-rolling-rmf-visualization-fleet-states (2.0.1-2noble) noble; urgency=high
+
+
+
+ -- Morgan Quigley <mquigley@openrobotics.org>  Tue, 15 Nov 2022 00:00:00 -0000
+
+ros-rolling-rmf-visualization-fleet-states (2.0.0-2noble) noble; urgency=high
+
+  * Update to ROS 2 component: (#44 <https://github.com/open-rmf/rmf_visualization/pull/44>)
+
+ -- Morgan Quigley <mquigley@openrobotics.org>  Mon, 03 Oct 2022 00:00:00 -0000
+
+ros-rolling-rmf-visualization-fleet-states (1.2.1-2noble) noble; urgency=high
+
+  * Fix style checking in CI: (#37 <https://github.com/open-rmf/rmf_visualization/pull/37>)
+  * Contributors: Grey
+
+ -- Morgan Quigley <mquigley@openrobotics.org>  Wed, 01 Sep 2021 00:00:00 -0000
+
+ros-rolling-rmf-visualization-fleet-states (1.2.0-2noble) noble; urgency=high
+
+  * Renamed package to rmf_visualization_fleet_states: (#8 <https://github.com/open-rmf/rmf_visualization/pull/8>)
+
+ -- Morgan Quigley <mquigley@openrobotics.org>  Mon, 14 Jun 2021 00:00:00 -0000
+
+ros-rolling-rmf-visualization-fleet-states (1.1.0-2noble) noble; urgency=high
+
+  * Fix linking of scripts when installing in development mode: (#57 <https://github.com/osrf/rmf_schedule_visualizer/pull/57>)
+  * Multi-level support where only robots on the active floor as specified in the SchedulePanel are visualized: (#58 <https://github.com/osrf/rmf_schedule_visualizer/pull/58>)
+  * Contributors: Kevin_Skywalker, Michael X. Grey, Yadu
+
+ -- Morgan Quigley <mquigley@openrobotics.org>  Thu, 24 Sep 2020 00:00:00 -0000
+
+ros-rolling-rmf-visualization-fleet-states (1.0.0-2noble) noble; urgency=high
+
+  * A ROS 2 node that publishers RViz markers to visualize the pose of mobile robots as specified in rmf_fleet_msgs::RobotState messages.
+  * Contributors: Morgan Quigley, Yadu
+
+ -- Morgan Quigley <mquigley@openrobotics.org>  Mon, 22 Jun 2020 00:00:00 -0000
+
+
