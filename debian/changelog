@@ -1,0 +1,33 @@
+ros-rolling-rmf-visualization-floorplans (2.2.1-2bookworm) bookworm; urgency=high
+
+  * Improve linking times (#61 <https://github.com/open-rmf/rmf_visualization/pull/61>)
+  * Contributors: Grey, Luca Della Vedova
+
+ -- Yadunund <yadunund@openrobotics.org>  Mon, 28 Aug 2023 00:00:00 -0000
+
+ros-rolling-rmf-visualization-floorplans (2.2.0-2bookworm) bookworm; urgency=high
+
+
+
+ -- Yadunund <yadunund@openrobotics.org>  Thu, 08 Jun 2023 00:00:00 -0000
+
+ros-rolling-rmf-visualization-floorplans (2.1.0-2bookworm) bookworm; urgency=high
+
+  * Switch to rst changelogs (#57 <https://github.com/open-rmf/rmf_visualization/pull/57>)
+  * Contributors: Yadunund
+
+ -- Yadunund <yadunund@openrobotics.org>  Tue, 06 Jun 2023 00:00:00 -0000
+
+ros-rolling-rmf-visualization-floorplans (2.0.1-2bookworm) bookworm; urgency=high
+
+  * Fix eigen not found when building rpm packages
+
+ -- Yadunund <yadunund@openrobotics.org>  Tue, 15 Nov 2022 00:00:00 -0000
+
+ros-rolling-rmf-visualization-floorplans (2.0.0-2bookworm) bookworm; urgency=high
+
+  * Provides a visualizer for floorplan images: (#44 <https://github.com/open-rmf/rmf_visualization/pull/44>)
+
+ -- Yadunund <yadunund@openrobotics.org>  Mon, 03 Oct 2022 00:00:00 -0000
+
+
