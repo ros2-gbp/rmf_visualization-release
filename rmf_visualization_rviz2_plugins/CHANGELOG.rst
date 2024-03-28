@@ -2,6 +2,11 @@
 Changelog for package rmf_visualization_rviz2_plugins
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+2.1.2 (2024-03-28)
+------------------
+* Fix adapter lift request publisher QoS to transient local (`#67 <https://github.com/open-rmf/rmf_visualization/pull/67>`_)
+* Contributors: Luca Della Vedova
+
 2.1.1 (2023-09-11)
 ------------------
 * Improve linking times (`#63 <https://github.com/open-rmf/rmf_visualization/pull/63>`_)
