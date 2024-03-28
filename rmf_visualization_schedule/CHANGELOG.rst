@@ -2,6 +2,9 @@
 Changelog for package rmf_visualization_schedule
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+2.1.2 (2024-03-28)
+------------------
+
 2.1.1 (2023-09-11)
 ------------------
 * Improve linking times (`#63 <https://github.com/open-rmf/rmf_visualization/pull/63>`_)
