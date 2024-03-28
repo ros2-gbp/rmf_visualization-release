@@ -2,13 +2,13 @@
 Changelog for package rmf_visualization_navgraphs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-2.2.1 (2023-08-28)
+2.1.2 (2024-03-28)
 ------------------
-* Improve linking times (`#61 <https://github.com/open-rmf/rmf_visualization/pull/61>`_)
-* Contributors: Grey, Luca Della Vedova
 
-2.2.0 (2023-06-08)
+2.1.1 (2023-09-11)
 ------------------
+* Improve linking times (`#63 <https://github.com/open-rmf/rmf_visualization/pull/63>`_)
+* Contributors: Grey, Luca Della Vedova, Yadunund
 
 2.1.0 (2023-06-06)
 ------------------
