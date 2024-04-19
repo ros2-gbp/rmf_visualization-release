@@ -1,0 +1,12 @@
+Source: ros-jazzy-rmf-visualization-rviz2-plugins
+Section: misc
+Priority: optional
+Maintainer: Yadunund <yadunund@openrobotics.org>
+Build-Depends: debhelper (>= 9.0.0), ament-cmake, ament-cmake-uncrustify <!nocheck>, libeigen3-dev, libresource-retriever-dev, pluginlib-dev, python3-resource-retriever, qtbase5-dev, ros-jazzy-rclcpp, ros-jazzy-rmf-door-msgs, ros-jazzy-rmf-lift-msgs, ros-jazzy-rmf-traffic-ros2, ros-jazzy-rmf-utils <!nocheck>, ros-jazzy-rmf-visualization-msgs, ros-jazzy-rviz-common, ros-jazzy-rviz-default-plugins, ros-jazzy-rviz-rendering, ros-jazzy-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-jazzy-rmf-visualization-rviz2-plugins
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libqt5core5a, libqt5gui5, libqt5widgets5, libresource-retriever-dev, pluginlib-dev, python3-resource-retriever, ros-jazzy-rclcpp, ros-jazzy-rmf-door-msgs, ros-jazzy-rmf-lift-msgs, ros-jazzy-rmf-traffic-ros2, ros-jazzy-rmf-visualization-msgs, ros-jazzy-rviz-common, ros-jazzy-rviz-default-plugins, ros-jazzy-rviz-rendering, ros-jazzy-ros-workspace
+Description: A package containing RViz2 plugins for RMF
