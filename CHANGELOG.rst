@@ -2,6 +2,21 @@
 Changelog for package rmf_visualization_rviz2_plugins
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+2.3.2 (2024-06-15)
+------------------
+
+2.3.1 (2024-06-06)
+------------------
+* Update QoS for panel publishers (`#74 <https://github.com/open-rmf/rmf_visualization/pull/74>`_)
+* Contributors: Luca Della Vedova
+
+2.3.0 (2024-06-01)
+------------------
+* Update CI to run on noble and address uncrustify issues (`#73 <https://github.com/open-rmf/rmf_visualization/pull/73>`_)
+* Explicitly specify all qos depth (`#70 <https://github.com/open-rmf/rmf_visualization/pull/70>`_)
+* Fix adapter lift request publisher QoS to transient local (`#66 <https://github.com/open-rmf/rmf_visualization/pull/66>`_)
+* Contributors: Luca Della Vedova, Teo Koon Peng, Yadunund
+
 2.2.1 (2023-08-28)
 ------------------
 * Improve linking times (`#61 <https://github.com/open-rmf/rmf_visualization/pull/61>`_)
