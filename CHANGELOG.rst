@@ -2,6 +2,15 @@
 Changelog for package rmf_visualization_obstacles
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+2.3.2 (2024-06-15)
+------------------
+
+2.3.1 (2024-06-06)
+------------------
+
+2.3.0 (2024-06-01)
+------------------
+
 2.2.1 (2023-08-28)
 ------------------
 * Improve linking times (`#61 <https://github.com/open-rmf/rmf_visualization/pull/61>`_)
