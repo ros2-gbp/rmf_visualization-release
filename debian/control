@@ -1,0 +1,12 @@
+Source: ros-jazzy-rmf-visualization-schedule
+Section: misc
+Priority: optional
+Maintainer: Yadunund <yadunund@openrobotics.org>
+Build-Depends: debhelper (>= 9.0.0), libboost-dev, libeigen3-dev, libssl-dev, libwebsocketpp-dev, ros-jazzy-ament-cmake, ros-jazzy-ament-cmake-uncrustify <!nocheck>, ros-jazzy-ament-lint-auto <!nocheck>, ros-jazzy-ament-lint-common <!nocheck>, ros-jazzy-builtin-interfaces, ros-jazzy-geometry-msgs, ros-jazzy-rclcpp, ros-jazzy-rclcpp-components, ros-jazzy-rmf-traffic, ros-jazzy-rmf-traffic-msgs, ros-jazzy-rmf-traffic-ros2, ros-jazzy-rmf-utils <!nocheck>, ros-jazzy-rmf-visualization-msgs, ros-jazzy-rosidl-default-generators, ros-jazzy-visualization-msgs, ros-jazzy-ros-workspace, ros-jazzy-rosidl-typesupport-fastrtps-c, ros-jazzy-rosidl-typesupport-fastrtps-cpp
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-jazzy-rmf-visualization-schedule
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libboost-dev, libeigen3-dev, libssl-dev, libwebsocketpp-dev, ros-jazzy-builtin-interfaces, ros-jazzy-geometry-msgs, ros-jazzy-rclcpp, ros-jazzy-rclcpp-components, ros-jazzy-rmf-traffic, ros-jazzy-rmf-traffic-msgs, ros-jazzy-rmf-traffic-ros2, ros-jazzy-rmf-visualization-msgs, ros-jazzy-rosidl-default-generators, ros-jazzy-visualization-msgs, ros-jazzy-ros-workspace
+Description: A visualizer for trajectories in rmf schedule
