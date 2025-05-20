@@ -1,0 +1,12 @@
+Source: ros-kilted-rmf-visualization-rviz2-plugins
+Section: misc
+Priority: optional
+Maintainer: Yadunund <yadunund@openrobotics.org>
+Build-Depends: debhelper (>= 9.0.0), libeigen3-dev, qtbase5-dev, ros-kilted-ament-cmake, ros-kilted-ament-cmake-uncrustify <!nocheck>, ros-kilted-pluginlib, ros-kilted-rclcpp, ros-kilted-resource-retriever, ros-kilted-rmf-door-msgs, ros-kilted-rmf-lift-msgs, ros-kilted-rmf-traffic-ros2, ros-kilted-rmf-utils <!nocheck>, ros-kilted-rmf-visualization-msgs, ros-kilted-rviz-common, ros-kilted-rviz-default-plugins, ros-kilted-rviz-rendering, ros-kilted-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-kilted-rmf-visualization-rviz2-plugins
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libqt5core5t64, libqt5gui5, libqt5widgets5, ros-kilted-pluginlib, ros-kilted-rclcpp, ros-kilted-resource-retriever, ros-kilted-rmf-door-msgs, ros-kilted-rmf-lift-msgs, ros-kilted-rmf-traffic-ros2, ros-kilted-rmf-visualization-msgs, ros-kilted-rviz-common, ros-kilted-rviz-default-plugins, ros-kilted-rviz-rendering, ros-kilted-ros-workspace
+Description: A package containing RViz2 plugins for RMF
