@@ -1,3 +1,34 @@
+## rmf_visualization (kilted) - 2.4.2-1
+
+The packages in the `rmf_visualization` repository were released into the `kilted` distro by running `/usr/bin/bloom-release -r kilted rmf_visualization` on `Tue, 20 May 2025 18:32:50 -0000`
+
+These packages were released:
+- `rmf_visualization`
+- `rmf_visualization_building_systems`
+- `rmf_visualization_fleet_states`
+- `rmf_visualization_floorplans`
+- `rmf_visualization_navgraphs`
+- `rmf_visualization_obstacles`
+- `rmf_visualization_rviz2_plugins`
+- `rmf_visualization_schedule`
+
+Version of package(s) in repository `rmf_visualization`:
+
+- upstream repository: https://github.com/open-rmf/rmf_visualization.git
+- release repository: https://github.com/ros2-gbp/rmf_visualization-release.git
+- rosdistro version: `2.4.1-2`
+- old version: `2.4.1-2`
+- new version: `2.4.2-1`
+
+Versions of tools used:
+
+- bloom version: `0.12.0`
+- catkin_pkg version: `1.0.0`
+- rosdep version: `0.25.1`
+- rosdistro version: `1.0.1`
+- vcstools version: `0.1.42`
+
+
 ## rmf_visualization (rolling) - 2.4.2-1
 
 The packages in the `rmf_visualization` repository were released into the `rolling` distro by running `/usr/bin/bloom-release -r rolling rmf_visualization` on `Wed, 14 May 2025 21:55:02 -0000`
