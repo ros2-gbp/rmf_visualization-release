@@ -2,6 +2,18 @@
 Changelog for package rmf_visualization_floorplan
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+2.5.1 (2026-01-13)
+------------------
+
+2.5.0 (2025-06-09)
+------------------
+* Link all needed opencv libraries (`#83 <https://github.com/open-rmf/rmf_visualization/issues/83>`_)
+* Replace ament_target_dependencies with target_link_libraries (`#82 <https://github.com/open-rmf/rmf_visualization/issues/82>`_)
+  * Replace ament_target_dependencies with target_link_libraries
+  * review feddback
+  ---------
+* Contributors: Alejandro Hernández Cordero, Luca Della Vedova
+
 2.4.2 (2025-05-09)
 ------------------
 
