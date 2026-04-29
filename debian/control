@@ -1,0 +1,12 @@
+Source: ros-lyrical-rmf-visualization-navgraphs
+Section: misc
+Priority: optional
+Maintainer: Yadunund <yadunund@openrobotics.com>
+Build-Depends: debhelper (>= 9.0.0), ros-lyrical-ament-cmake, ros-lyrical-ament-lint-auto <!nocheck>, ros-lyrical-ament-lint-common <!nocheck>, ros-lyrical-geometry-msgs, ros-lyrical-rclcpp, ros-lyrical-rclcpp-components, ros-lyrical-rmf-building-map-msgs, ros-lyrical-rmf-fleet-msgs, ros-lyrical-rmf-traffic, ros-lyrical-rmf-traffic-ros2, ros-lyrical-rmf-utils <!nocheck>, ros-lyrical-rmf-visualization-msgs, ros-lyrical-visualization-msgs, ros-lyrical-ros-workspace
+Homepage: https://index.ros.org/p/rmf_visualization_navgraphs/#lyrical
+Standards-Version: 3.9.2
+
+Package: ros-lyrical-rmf-visualization-navgraphs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-lyrical-geometry-msgs, ros-lyrical-rclcpp, ros-lyrical-rclcpp-components, ros-lyrical-rmf-building-map-msgs, ros-lyrical-rmf-fleet-msgs, ros-lyrical-rmf-traffic, ros-lyrical-rmf-traffic-ros2, ros-lyrical-rmf-visualization-msgs, ros-lyrical-visualization-msgs, ros-lyrical-ros-workspace
+Description: A package to visualiize the navigation graphs of fleets
