@@ -1,0 +1,12 @@
+Source: ros-lyrical-rmf-visualization-obstacles
+Section: misc
+Priority: optional
+Maintainer: Yadunund <yadunund@openrobotics.com>
+Build-Depends: debhelper (>= 9.0.0), ros-lyrical-ament-cmake, ros-lyrical-ament-cmake-uncrustify <!nocheck>, ros-lyrical-geometry-msgs, ros-lyrical-rclcpp, ros-lyrical-rclcpp-components, ros-lyrical-rmf-obstacle-msgs, ros-lyrical-rmf-utils <!nocheck>, ros-lyrical-rmf-visualization-msgs, ros-lyrical-vision-msgs, ros-lyrical-visualization-msgs, ros-lyrical-ros-workspace
+Homepage: https://index.ros.org/p/rmf_visualization_obstacles/#lyrical
+Standards-Version: 3.9.2
+
+Package: ros-lyrical-rmf-visualization-obstacles
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-lyrical-geometry-msgs, ros-lyrical-rclcpp, ros-lyrical-rclcpp-components, ros-lyrical-rmf-obstacle-msgs, ros-lyrical-rmf-visualization-msgs, ros-lyrical-vision-msgs, ros-lyrical-visualization-msgs, ros-lyrical-ros-workspace
+Description: A visualizer for obstacles in RMF
