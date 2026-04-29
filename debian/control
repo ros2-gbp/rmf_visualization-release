@@ -1,0 +1,12 @@
+Source: ros-lyrical-rmf-visualization-schedule
+Section: misc
+Priority: optional
+Maintainer: Yadunund <yadunund@openrobotics.org>
+Build-Depends: debhelper (>= 9.0.0), libboost-dev, libeigen3-dev, libssl-dev, libwebsocketpp-dev, ros-lyrical-ament-cmake, ros-lyrical-ament-cmake-uncrustify <!nocheck>, ros-lyrical-ament-lint-auto <!nocheck>, ros-lyrical-ament-lint-common <!nocheck>, ros-lyrical-builtin-interfaces, ros-lyrical-geometry-msgs, ros-lyrical-rclcpp, ros-lyrical-rclcpp-components, ros-lyrical-rmf-traffic, ros-lyrical-rmf-traffic-msgs, ros-lyrical-rmf-traffic-ros2, ros-lyrical-rmf-utils <!nocheck>, ros-lyrical-rmf-visualization-msgs, ros-lyrical-rosidl-default-generators, ros-lyrical-visualization-msgs, ros-lyrical-ros-workspace, ros-lyrical-rosidl-typesupport-fastrtps-c, ros-lyrical-rosidl-typesupport-fastrtps-cpp
+Homepage: https://index.ros.org/p/rmf_visualization_schedule/#lyrical
+Standards-Version: 3.9.2
+
+Package: ros-lyrical-rmf-visualization-schedule
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libboost-dev, libeigen3-dev, libssl-dev, libwebsocketpp-dev, ros-lyrical-builtin-interfaces, ros-lyrical-geometry-msgs, ros-lyrical-rclcpp, ros-lyrical-rclcpp-components, ros-lyrical-rmf-traffic, ros-lyrical-rmf-traffic-msgs, ros-lyrical-rmf-traffic-ros2, ros-lyrical-rmf-visualization-msgs, ros-lyrical-rosidl-default-generators, ros-lyrical-visualization-msgs, ros-lyrical-ros-workspace
+Description: A visualizer for trajectories in rmf schedule
