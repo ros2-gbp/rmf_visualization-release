@@ -1,0 +1,12 @@
+Source: ros-lyrical-rmf-visualization-floorplans
+Section: misc
+Priority: optional
+Maintainer: Yadunund <yadunund@openrobotics.org>
+Build-Depends: debhelper (>= 9.0.0), libeigen3-dev, libopencv-dev, ros-lyrical-ament-cmake, ros-lyrical-ament-lint-auto <!nocheck>, ros-lyrical-ament-lint-common <!nocheck>, ros-lyrical-eigen3-cmake-module, ros-lyrical-geometry-msgs, ros-lyrical-nav-msgs, ros-lyrical-rclcpp, ros-lyrical-rclcpp-components, ros-lyrical-rmf-building-map-msgs, ros-lyrical-rmf-utils <!nocheck>, ros-lyrical-rmf-visualization-msgs, ros-lyrical-ros-workspace
+Homepage: https://index.ros.org/p/rmf_visualization_floorplans/#lyrical
+Standards-Version: 3.9.2
+
+Package: ros-lyrical-rmf-visualization-floorplans
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libeigen3-dev, libopencv-dev, ros-lyrical-geometry-msgs, ros-lyrical-nav-msgs, ros-lyrical-rclcpp, ros-lyrical-rclcpp-components, ros-lyrical-rmf-building-map-msgs, ros-lyrical-rmf-visualization-msgs, ros-lyrical-ros-workspace
+Description: A package to visualize the floorplans for levels in a building
