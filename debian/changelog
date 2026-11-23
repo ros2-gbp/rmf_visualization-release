@@ -1,0 +1,106 @@
+ros-rolling-rmf-visualization-navgraphs (2.8.0-1trixie) trixie; urgency=high
+
+  * Add zone visualisation for GoToZone feature (#91 <https://github.com/open-rmf/rmf_visualization/issues/91>)
+    Co-authored-by: Tey Leong Teck <mailto:leong_teck_tey@cgh.com.sg>
+    Co-authored-by: Loke Ji Xian <mailto:loke_ji_xian@cgh.com.sg>
+    Co-authored-by: kjchee <mailto:keai_jiang_chee@cgh.com.sg>
+  * bump cmake versions (#97 <https://github.com/open-rmf/rmf_visualization/issues/97>)
+  * Contributors: Aaron Chong, chart
+
+ -- "Yadunund" <yadunund@openrobotics.com>  Thu, 12 Nov 2026 16:00:00 -0000
+
+ros-rolling-rmf-visualization-navgraphs (2.7.0-1trixie) trixie; urgency=high
+
+
+
+ -- "Yadunund" <yadunund@openrobotics.com>  Fri, 25 Sep 2026 16:00:00 -0000
+
+ros-rolling-rmf-visualization-navgraphs (2.6.0-1trixie) trixie; urgency=high
+
+  * Use default CI matrix (#94 <https://github.com/open-rmf/rmf_visualization/issues/94>)
+    Co-authored-by: Michael X. Grey <mailto:mxgrey@intrinsic.ai>
+  * Contributors: Luca Della Vedova
+
+ -- "Yadunund" <yadunund@openrobotics.com>  Tue, 16 Jun 2026 16:00:00 -0000
+
+ros-rolling-rmf-visualization-navgraphs (2.5.1-1trixie) trixie; urgency=high
+
+
+
+ -- "Yadunund" <yadunund@openrobotics.com>  Mon, 12 Jan 2026 16:00:00 -0000
+
+ros-rolling-rmf-visualization-navgraphs (2.5.0-1trixie) trixie; urgency=high
+
+  * Replace ament_target_dependencies with target_link_libraries (#82 <https://github.com/open-rmf/rmf_visualization/issues/82>)
+    * Replace ament_target_dependencies with target_link_libraries
+    * review feddback
+    ---------
+  * Contributors: Alejandro Hernández Cordero
+
+ -- "Yadunund" <yadunund@openrobotics.com>  Sun, 08 Jun 2025 16:00:00 -0000
+
+ros-rolling-rmf-visualization-navgraphs (2.4.2-1trixie) trixie; urgency=high
+
+
+
+ -- "Yadunund" <yadunund@openrobotics.com>  Thu, 08 May 2025 16:00:00 -0000
+
+ros-rolling-rmf-visualization-navgraphs (2.4.1-1trixie) trixie; urgency=high
+
+
+
+ -- "Yadunund" <yadunund@openrobotics.com>  Tue, 26 Nov 2024 16:00:00 -0000
+
+ros-rolling-rmf-visualization-navgraphs (2.4.0-1trixie) trixie; urgency=high
+
+
+
+ -- "Yadunund" <yadunund@openrobotics.com>  Tue, 11 Jun 2024 16:00:00 -0000
+
+ros-rolling-rmf-visualization-navgraphs (2.3.1-1trixie) trixie; urgency=high
+
+
+
+ -- "Yadunund" <yadunund@openrobotics.com>  Wed, 05 Jun 2024 16:00:00 -0000
+
+ros-rolling-rmf-visualization-navgraphs (2.3.0-1trixie) trixie; urgency=high
+
+  * Update CI to run on noble and address uncrustify issues (#73 <https://github.com/open-rmf/rmf_visualization/pull/73>)
+  * Explicitly specify all qos depth (#70 <https://github.com/open-rmf/rmf_visualization/pull/70>)
+  * Contributors: Teo Koon Peng, Yadunund
+
+ -- "Yadunund" <yadunund@openrobotics.com>  Fri, 31 May 2024 16:00:00 -0000
+
+ros-rolling-rmf-visualization-navgraphs (2.2.1-1trixie) trixie; urgency=high
+
+  * Improve linking times (#61 <https://github.com/open-rmf/rmf_visualization/pull/61>)
+  * Contributors: Grey, Luca Della Vedova
+
+ -- "Yadunund" <yadunund@openrobotics.com>  Sun, 27 Aug 2023 16:00:00 -0000
+
+ros-rolling-rmf-visualization-navgraphs (2.2.0-1trixie) trixie; urgency=high
+
+
+
+ -- "Yadunund" <yadunund@openrobotics.com>  Wed, 07 Jun 2023 16:00:00 -0000
+
+ros-rolling-rmf-visualization-navgraphs (2.1.0-1trixie) trixie; urgency=high
+
+  * Switch to rst changelogs (#57 <https://github.com/open-rmf/rmf_visualization/pull/57>)
+  * Contributors: Yadunund
+
+ -- "Yadunund" <yadunund@openrobotics.com>  Mon, 05 Jun 2023 16:00:00 -0000
+
+ros-rolling-rmf-visualization-navgraphs (2.0.1-1trixie) trixie; urgency=high
+
+
+
+ -- "Yadunund" <yadunund@openrobotics.com>  Mon, 14 Nov 2022 16:00:00 -0000
+
+ros-rolling-rmf-visualization-navgraphs (2.0.0-1trixie) trixie; urgency=high
+
+  * Provides a visualizer for navigation graphs used by fleets: (#44 <https://github.com/open-rmf/rmf_visualization/pull/44>)
+
+ -- "Yadunund" <yadunund@openrobotics.com>  Sun, 02 Oct 2022 16:00:00 -0000
+
+
