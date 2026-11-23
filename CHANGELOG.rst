@@ -2,6 +2,21 @@
 Changelog for package rmf_visualization_floorplan
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+2.8.0 (2026-11-13)
+------------------
+* bump cmake versions (`#97 <https://github.com/open-rmf/rmf_visualization/issues/97>`_)
+* Contributors: Aaron Chong
+
+2.7.0 (2026-09-26)
+------------------
+
+2.6.0 (2026-06-17)
+------------------
+* Use default CI matrix (`#94 <https://github.com/open-rmf/rmf_visualization/issues/94>`_)
+  Co-authored-by: Michael X. Grey <mxgrey@intrinsic.ai>
+* Add static cast for buffer data (`#92 <https://github.com/open-rmf/rmf_visualization/issues/92>`_)
+* Contributors: Luca Della Vedova
+
 2.5.1 (2026-01-13)
 ------------------
 
