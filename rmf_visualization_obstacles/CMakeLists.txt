@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 3.8)
+cmake_minimum_required(VERSION 3.20)
 project(rmf_visualization_obstacles)
 
 if(CMAKE_COMPILER_IS_GNUCXX OR CMAKE_CXX_COMPILER_ID MATCHES "Clang")
@@ -36,7 +36,8 @@ rclcpp_components_register_node(obstacle_visualizer
   EXECUTABLE obstacle_visualizer_node)
 
 #===============================================================================
-if(BUILD_TESTING)
+option(STYLE_TEST "Run uncrustify to evaluate the code style")
+if(BUILD_TESTING AND STYLE_TEST)
   find_package(ament_cmake_uncrustify REQUIRED)
   find_package(rmf_utils REQUIRED)
   find_file(uncrustify_config_file
